@@ -1,0 +1,58 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="6NeGBQL5iB9iWadnpSzu">
+    <mxGraphModel dx="1965" dy="2459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="w2Ax9p9ihyeYJWiYNN0h-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Permettre au parent:&lt;div&gt;Notes des élèves&lt;/div&gt;&lt;div&gt;absences&lt;/div&gt;&lt;div&gt;bulletins&lt;/div&gt;&lt;div&gt;notifications&lt;/div&gt;&lt;div&gt;Permettre à l&#39;administrateur:&lt;/div&gt;&lt;div&gt;créer et gérer compte parent&lt;/div&gt;&lt;div&gt;ajouter/modifier les données pédagogiques&lt;/div&gt;&lt;div&gt;générer et envoyer notifications&lt;/div&gt;&lt;div&gt;sécuriser l&#39;accès aux informations via authentification&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="210" x="20" y="-90" as="geometry" />
+        </mxCell>
+        <mxCell id="w2Ax9p9ihyeYJWiYNN0h-2" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="200" as="sourcePoint" />
+            <mxPoint x="140" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w2Ax9p9ihyeYJWiYNN0h-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Identification des acteurs&lt;div&gt;Parent&lt;/div&gt;&lt;div&gt;Administrateur&lt;/div&gt;&lt;div&gt;Cas d&#39;utilisation principaux:&lt;/div&gt;&lt;div&gt;consulter le suivi scolaire&lt;/div&gt;&lt;div&gt;ajouter/modifier les infos pédagogiques&lt;/div&gt;&lt;div&gt;gérer compte d&#39;utilisateur&lt;/div&gt;&lt;div&gt;recevoir des notes&lt;/div&gt;&lt;div&gt;Modélisation en UML:&lt;/div&gt;&lt;div&gt;D.des cas d&#39;utilisation&lt;/div&gt;&lt;div&gt;D.de classe avec entités:Parent,Elève,Bulletin,Notifications,Administrateur&lt;/div&gt;" vertex="1">
+          <mxGeometry height="260" width="320" x="70" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="w2Ax9p9ihyeYJWiYNN0h-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Technologies:&lt;div&gt;Java(console pour silulation)&lt;/div&gt;&lt;div&gt;C++(gestion des structures de données et fichiers)&lt;/div&gt;&lt;div&gt;HTML/CSS/JS+PHP(web)&lt;/div&gt;&lt;div&gt;MYSQL(base de données)&lt;/div&gt;&lt;div&gt;Sécurité:&lt;/div&gt;&lt;div&gt;Authentification&lt;/div&gt;&lt;div&gt;Stockage sécurisé des infos&lt;/div&gt;&lt;div&gt;Interopérabilité:&lt;/div&gt;&lt;div&gt;communication entre console,web et base de donnée&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="250" x="540" y="-90" as="geometry" />
+        </mxCell>
+        <mxCell id="w2Ax9p9ihyeYJWiYNN0h-5" edge="1" parent="1" source="w2Ax9p9ihyeYJWiYNN0h-6" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="650" y="150" as="sourcePoint" />
+            <mxPoint x="700" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w2Ax9p9ihyeYJWiYNN0h-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Architecture du système:multi-technologie&lt;div&gt;Applications console(Java/C++)pour illustrations et tests&lt;/div&gt;&lt;div&gt;Applications web(Front-end+Back-end)pour illustration réelle&lt;/div&gt;&lt;div&gt;Gestion des données:&lt;/div&gt;&lt;div&gt;Structures et fichiers en C++ pour stockage local&lt;/div&gt;&lt;div&gt;Base de donnée MYSQL pour stockage centralisé&lt;/div&gt;&lt;div&gt;Communication entre composants:&lt;/div&gt;&lt;div&gt;PHP pour traitement coté serveur et interaction avac B.D&lt;/div&gt;&lt;div&gt;JAVA pour simulation des opérations coté client&lt;/div&gt;" vertex="1">
+          <mxGeometry height="250" width="320" x="500" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="w2Ax9p9ihyeYJWiYNN0h-7" edge="1" parent="1" source="w2Ax9p9ihyeYJWiYNN0h-9" style="endArrow=none;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="360" y="580" as="sourcePoint" />
+            <mxPoint x="250" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w2Ax9p9ihyeYJWiYNN0h-8" edge="1" parent="1" source="w2Ax9p9ihyeYJWiYNN0h-6" style="endArrow=none;html=1;rounded=0;exitX=0.371;exitY=1.007;exitDx=0;exitDy=0;exitPerimeter=0;" target="w2Ax9p9ihyeYJWiYNN0h-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="600" y="500" as="sourcePoint" />
+            <mxPoint x="650" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w2Ax9p9ihyeYJWiYNN0h-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="MCD:&lt;div&gt;Parent-Elève&lt;/div&gt;&lt;div&gt;Elève-Bulletin&lt;/div&gt;&lt;div&gt;Admin-Notif&lt;/div&gt;&lt;div&gt;MLD:&lt;/div&gt;&lt;div&gt;Diagramme UML:&lt;/div&gt;&lt;div&gt;D.de classe(Parent,Elève,Bulletin,Notifications,Administrateur&lt;/div&gt;" vertex="1">
+          <mxGeometry height="175" width="300" x="290" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="w2Ax9p9ihyeYJWiYNN0h-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Tests unitaires:&lt;div&gt;vérification des fonctionnalités isolées&lt;/div&gt;&lt;div&gt;Tests d&#39;intégration:&lt;/div&gt;&lt;div&gt;vérification que toutes les parties communiquent correctement(Java,C++,web,MYSQL&lt;/div&gt;&lt;div&gt;Tests fonctionnels:&lt;/div&gt;&lt;div&gt;Simulation des actions des parents et de l&#39;administrateur&lt;/div&gt;&lt;div&gt;Tests finaux:&lt;/div&gt;&lt;div&gt;vérification globale du système avant livraison&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="270" x="320" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="w2Ax9p9ihyeYJWiYNN0h-11" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="w2Ax9p9ihyeYJWiYNN0h-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="880" as="sourcePoint" />
+            <mxPoint x="470" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
